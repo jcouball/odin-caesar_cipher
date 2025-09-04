@@ -25,10 +25,22 @@ gem install odin-caesar_cipher
 
 ## Usage
 
+### Gem
+
 ```ruby
 > require 'odin/caesar_cipher'
 > Odin::CaesarCipher.encode("What a string!", 5)
 => "Bmfy f xywnsl!"
+```
+
+### Command Line
+
+```shell
+$ odin-ceasar-cipher 'What a string!' 5
+Original string: What a string!
+Shift amount: 5
+Encoded string: Bmfy f xywnsl!
+$
 ```
 
 ## Development

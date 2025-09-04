@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'odin/caesar_cipher'
+
+original_string = ARGV[0]
+shift_amount = ARGV[1].to_i
+
+puts "Original string: #{original_string}"
+puts "Shift amount: #{shift_amount}"
+
+encoded_string = Odin::CaesarCipher.encode(original_string, shift_amount)
+
+puts "Encoded string: #{encoded_string}"
