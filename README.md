@@ -9,7 +9,7 @@ and then outputs the modified string using a right shift:
 => "Bmfy f xywnsl!"
 ```
 
-[Odin Caesar Cipher Project](https://www.theodinproject.com/lessons/ruby-sub-strings)
+[Odin Caesar Cipher Project](https://www.theodinproject.com/lessons/ruby-caesar-cipher)
 
 [Solution Code](lib/odin/caesar_cipher.rb)
 
