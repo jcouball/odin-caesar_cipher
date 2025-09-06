@@ -9,6 +9,12 @@ and then outputs the modified string using a right shift:
 => "Bmfy f xywnsl!"
 ```
 
+[Odin Caesar Cipher Project](https://www.theodinproject.com/lessons/ruby-sub-strings)
+
+[Solution Code](lib/odin/caesar_cipher.rb)
+
+[RSpec Tests](spec/odin/caesar_cipher_spec.rb)
+
 ## Installation
 
 Install the gem and add to the application's Gemfile by executing:
@@ -25,22 +31,10 @@ gem install odin-caesar_cipher
 
 ## Usage
 
-### Gem
-
 ```ruby
 > require 'odin/caesar_cipher'
 > Odin::CaesarCipher.encode("What a string!", 5)
 => "Bmfy f xywnsl!"
-```
-
-### Command Line
-
-```shell
-$ odin-ceasar-cipher 'What a string!' 5
-Original string: What a string!
-Shift amount: 5
-Encoded string: Bmfy f xywnsl!
-$
 ```
 
 ## Development
